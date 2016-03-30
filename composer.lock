@@ -1,0 +1,47 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "3fa72a9a9f928affe24fe8600e4aff8b",
+    "content-hash": "9922296d22add5df44a85f10218ba7e1",
+    "packages": [
+        {
+            "name": "dao/url",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/danny-allen/url.git",
+                "reference": "01265f62a2c7afba4bfa65dc1c9b0740f43aac8b"
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dao\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Danny Allen",
+                    "email": "danny@naaa.com"
+                }
+            ],
+            "description": "Parse URLs and retrieve the components.",
+            "time": "2016-03-29 14:22:02"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.5.0"
+    },
+    "platform-dev": []
+}

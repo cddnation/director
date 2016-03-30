@@ -1,0 +1,26 @@
+{
+    "name": "dao/director",
+    "description": "Performs redirects with PHP.",
+    "authors": [
+        {
+            "name": "Danny Allen",
+            "email": "danny@naaa.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/danny-allen/url.git"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "dao/url": "1.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dao\\": "src/"
+        }
+    }
+}

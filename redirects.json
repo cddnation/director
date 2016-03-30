@@ -1,0 +1,14 @@
+[
+	{
+		"from": "/old/url/",
+		"to": "/new/url/"
+	},
+	{
+		"from": "/another/old/url/",
+		"to": "/another/new/url/",
+		"options" : {
+			"preserveQuery" : true,
+			"permanent": true
+		}
+	}
+]
