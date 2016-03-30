@@ -3,7 +3,6 @@
 ## Sample Usage
 
 ```php
-	<?php
 	
 	//autoloader
 	require_once('vendor/autoload.php');
