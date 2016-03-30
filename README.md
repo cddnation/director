@@ -1,6 +1,13 @@
 # Director
 
+## Installation
+
+Firstly, this is a composer package. So to get up an running, you'll need to add this repo to the composer.json file.
+
+
 ## Sample Usage
+
+Here is an example of how you might use this...
 
 ```php
 	
