@@ -47,6 +47,8 @@
 
 ## Sample data
 
+Please note the options are not in use as of yet. This will be implemented later on.
+
 ```json
 	[
 		{
